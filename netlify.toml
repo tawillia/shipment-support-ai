@@ -1,0 +1,14 @@
+# Run from the project root (the folder containing package.json).
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+# Serve the React app for client-side URLs; existing assets still take priority.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false

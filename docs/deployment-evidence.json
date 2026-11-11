@@ -1,0 +1,36 @@
+{
+  "source_files_scanned": 47,
+  "production_files_scanned": 4,
+  "suspected_secret_findings": [],
+  "sensitive_files_found": [],
+  "runtime_environment_references": [],
+  "netlify_configuration_checked": true,
+  "spa_rules_match": true,
+  "built_asset_references_exist": [
+    "/assets/index-Dxj1rI9w.js",
+    "/assets/index-C0JQoRB1.css"
+  ],
+  "production_source_maps": false,
+  "production_files": [
+    {
+      "path": "_redirects",
+      "size_bytes": 76,
+      "sha256": "8d10606fe663f1c4b697d6b2e90fb29c12733d45611200ad0e1017edea225871"
+    },
+    {
+      "path": "assets/index-C0JQoRB1.css",
+      "size_bytes": 25808,
+      "sha256": "7269b3834ec53f3be3824046434d62416ff1e120940d3ce7719c390a1100720f"
+    },
+    {
+      "path": "assets/index-Dxj1rI9w.js",
+      "size_bytes": 254289,
+      "sha256": "4d2398d99bd18d50fb0ce756d733c91745cc3752fa3fee5759c035d20b223589"
+    },
+    {
+      "path": "index.html",
+      "size_bytes": 628,
+      "sha256": "4b40fd8fc4ed0f39aaca4837a70f25691d6031eb733d17fbbb20e4d328599272"
+    }
+  ]
+}
